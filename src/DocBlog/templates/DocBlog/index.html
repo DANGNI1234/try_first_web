@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'DocBlog/css/style.css' %}">
+</head>
+<body>
+    <h2>welcome to my website</h2>
+    <h1>Today we are {{date|date:"d F Y"}}</h1>
+    <h3>it is {{date|date:"H\h  i \m\i\n  s\s"}}</h3>
+</body>
+</html>
